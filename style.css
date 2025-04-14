@@ -1,0 +1,72 @@
+/* Hedge Trimming Calculator Widget Styles */
+
+.htc-widget {
+    width: 100%;
+    font-family: inherit;
+    max-width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .htc-widget h3 {
+    font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .htc-field {
+    margin-bottom: 12px;
+  }
+  
+  .htc-field label {
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 4px;
+    color: #555;
+  }
+  
+  .htc-field input[type="number"] {
+    width: calc(100% - 12px);
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .htc-widget button {
+    margin-bottom: 12px;
+  }
+  
+  .htc-widget .htc-results p {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 32px;
+    color: #333;
+  }
+  
+  .htc-disclaimer {
+    font-size: 12px !important;
+    text-align: left;
+    margin-top: 16px;
+    color: #888;
+  }
+  
+  .htc-credit {
+    font-size: 12px !important;
+    text-align: left;
+    margin-top: 8px;
+    color: #888;
+  }
+  
+  .htc-credit a {
+    color: #888;
+  }
+  
